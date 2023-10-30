@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#25D366"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -30,10 +32,16 @@
         "MICROPHONE",
         "ACCESS_MEDIA_LOCATION",
         "PUSH_NOTIFICATIONS"
-      ]
+      ],
+      "package": "com.dynasoftsystems.wa4tablets"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e59facc-1f4a-482f-aa57-284d661dc88e"
+      }
     }
   }
 }
